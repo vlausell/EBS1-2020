@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "EBS1",
-    "currentPage": "index.U2.html",
+    "currentPage": "index.U1.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9,7 +9,7 @@
         "primaryColor": "#232323",
         "secondaryColor": "#ac120c",
         "successColor": "#080b79",
-        "infoColor": "#635a51",
+        "infoColor": "#080b79",
         "warningColor": "#879A9F",
         "dangerColor": "#073b4c",
         "mainFont": "Rubik",
@@ -33,7 +33,8 @@
         "#654f2c",
         "#45351d",
         "#a70f20",
-        "#ac120c"
+        "#ac120c",
+        "#f9f9f9"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -52,495 +53,6 @@
     "screenshot": "screenshot.png"
   },
   "pages": {
-    "index.U0.html": {
-      "settings": {
-        "title": "index.U0",
-        "meta_descr": "U0 exercises.",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 1
-      },
-      "components": [
-        {
-          "_styles": {
-            ".navbar": {
-              "padding": ".5rem 0",
-              "background": "@menuBgColor",
-              "transition": "none",
-              "min-height": "77px"
-            },
-            ".navbar-dropdown.bg-color.transparent.opened": {
-              "background": "@menuBgColor"
-            },
-            "a": {
-              "font-style": "normal"
-            },
-            ".nav-item": {
-              "& span": {
-                "padding-right": "0.4em",
-                "line-height": "0.5em",
-                "vertical-align": "text-bottom",
-                "position": "relative",
-                "text-decoration": "none"
-              },
-              "& a": {
-                "display": "flex",
-                "align-items": "center",
-                "justify-content": "center",
-                "padding": "0.7rem 0 !important",
-                "margin": "0rem .65rem !important"
-              }
-            },
-            ".nav-item:focus, .nav-link:focus": {
-              "outline": "none"
-            },
-            ".btn": {
-              "padding": "0.4rem 1.5rem",
-              ".mbr-iconfont": {
-                "font-size": "1.6rem"
-              },
-              "display": "inline-flex",
-              "align-items": "center"
-            },
-            ".menu-logo": {
-              "margin-right": "auto",
-              ".navbar-brand": {
-                "display": "flex",
-                "margin-left": "5rem",
-                "padding": "0",
-                "transition": "padding .2s",
-                "min-height": "3.8rem",
-                "align-items": "center",
-                ".navbar-caption-wrap": {
-                  "display": "-webkit-flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "word-break": "break-word",
-                  "min-width": "7rem",
-                  "margin": ".3rem 0",
-                  ".navbar-caption": {
-                    "line-height": "1.2rem !important",
-                    "padding-right": "2rem"
-                  }
-                },
-                ".navbar-logo": {
-                  "font-size": "4rem",
-                  "transition": "font-size 0.25s",
-                  "& img": {
-                    "display": "flex"
-                  },
-                  ".mbr-iconfont": {
-                    "transition": "font-size 0.25s"
-                  }
-                }
-              }
-            },
-            ".navbar-toggleable-sm .navbar-collapse": {
-              "justify-content": "flex-end",
-              "-webkit-justify-content": "flex-end",
-              "padding-right": "5rem",
-              "width": "auto",
-              ".navbar-nav": {
-                "flex-wrap": "wrap",
-                "-webkit-flex-wrap": "wrap",
-                "padding-left": "0",
-                ".nav-item": {
-                  "-webkit-align-self": "center",
-                  "align-self": "center"
-                }
-              },
-              ".navbar-buttons": {
-                "padding-left": "0",
-                "padding-bottom": "0"
-              }
-            },
-            ".dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                "display": "none",
-                "position": "absolute",
-                "min-width": "5rem",
-                "padding-top": "1.4rem",
-                "padding-bottom": "1.4rem",
-                "text-align": "left",
-                ".dropdown-item": {
-                  "width": "auto",
-                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
-                  "&::after": {
-                    "right": "0.5rem"
-                  }
-                },
-                ".dropdown-submenu": {
-                  "margin": "0"
-                }
-              },
-              "&.open > .dropdown-menu": {
-                "display": "block"
-              }
-            },
-            ".navbar-toggleable-sm": {
-              "&.opened:after": {
-                "position": "absolute",
-                "width": "100vw",
-                "height": "100vh",
-                "content": "''",
-                "background-color": "rgba(0, 0, 0, 0.1)",
-                "left": "0",
-                "bottom": "0",
-                "transform": "translateY(100%)",
-                "-webkit-transform": "translateY(100%)",
-                "z-index": "1000"
-              }
-            },
-            ".navbar.navbar-short": {
-              "min-height": "60px",
-              "transition": "all .2s",
-              "& .navbar-toggler-right": {
-                "top": "20px"
-              },
-              "& .navbar-logo a": {
-                "font-size": "2.5rem !important",
-                "line-height": "2.5rem",
-                "transition": "font-size 0.25s",
-                "& .mbr-iconfont": {
-                  "font-size": "2.5rem !important"
-                },
-                "& img": {
-                  "height": "3rem !important"
-                }
-              },
-              "& .navbar-brand": {
-                "min-height": "3rem"
-              }
-            },
-            "button.navbar-toggler": {
-              "width": "31px",
-              "height": "18px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "top": "1.5rem",
-              "right": "1rem",
-              "&:focus": {
-                "outline": "none"
-              },
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "-webkit-transform": "rotate(45deg)",
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "-webkit-transform": "rotate(-45deg)",
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".collapsed": {
-              "&.navbar-expand": {
-                "flex-direction": "column"
-              },
-              ".btn": {
-                "display": "flex"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".navbar-expand": {
-                "flex-direction": "column"
-              },
-              "img": {
-                "height": "3.8rem !important"
-              },
-              ".btn": {
-                "display": "flex"
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (min-width: 767px)": {
-              ".menu-logo": {
-                "flex-shrink": "0"
-              }
-            },
-            ".navbar-collapse": {
-              "flex-basis": "auto"
-            },
-            ".nav-link:hover, .dropdown-item:hover": {
-              "color": "@itemsHoverColor !important"
-            }
-          },
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
-          "_cid": "qUKUFhwesI",
-          "_anchor": "menu1-8",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background": "linear-gradient(45deg, @bg-value, @color2)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center",
-              "color": "#465052"
-            },
-            "B": {
-              "color": "#232323"
-            },
-            ".mbr-text, .mbr-section-btn B": {
-              "color": "#d12112"
-            }
-          },
-          "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/icade-1024x576.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7fd9fc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>\n                    </b><br><b><br></b><br></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b><b><b>U0-EDUCATION</b></b></b><br><b><b><b><i>To access the exercises, click on the links below.</i></b></b></b><br><a href=\"https://learningapps.org/watch?v=pf5pi2oha18\" target=\"_blank\" class=\"text-success\">0.1 Describing universities</a><br><a href=\"https://learningapps.org/watch?v=p35fjpxzk18\" target=\"_blank\" class=\"text-success\">0.2 Academic Vocabulary</a><br><a href=\"https://learningapps.org/watch?v=per2ezc9j18\" target=\"_blank\" class=\"text-success\">0.3 English-Spanish Education &nbsp;terms 1</a><br><a href=\"https://learningapps.org/watch?v=pz4ypritj18\" target=\"_blank\" class=\"text-success\">0.4 English-Spanish Education  terms 2</a><br><a href=\"https://learningapps.org/watch?v=pa5svjunn18\" class=\"text-success\">0.5 - University Campus vocabulary</a><br><a href=\"https://learningapps.org/watch?v=phfgz9tm218\" class=\"text-success\">0.6 University Vocabulary-Review</a><br><a href=\"https://www.englishpage.com/vocabulary/interactivelesson2a.htm\" class=\"text-success\">0.7 Higher Education dialogue (extra vocabulary practice)</a><br><a href=\"https://quizlet.com/_1f3g2v \" class=\"text-success\">Unit 0 QUIZLET CARDS to review EDUCATION Vocabulary</a><br><b><b><i>CLICK ON THE ARROW BELOW TO SCROLL DOWN TO THE AUDIOS AND VIDEOS.<a href=\"https://learningapps.org/watch?v=phfgz9tm218\"><br></a></i></b><br><br><br></b></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qUR2St6Vs8",
-          "_anchor": "header5-e",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "h1": {
-              "color": "#616161"
-            },
-            "h2, h3, p": {
-              "color": "#767676"
-            },
-            ".mbr-section-subtitle": {
-              "font-style": "italic"
-            },
-            "H1": {
-              "color": "#080b79"
-            },
-            "H3": {
-              "color": "#080b79"
-            },
-            "P": {
-              "color": "#080b79"
-            }
-          },
-          "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1080x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">U0-Education</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\"><b><span style=\"font-style: normal;\">U0- Education&nbsp;</span></b></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>U0 LISTENINGS /VIDEOS \n</b><br><i><b>Click on the corresponding link below.</b></i><br><a href=\"https://www.tes.com/lessons/fUFPGSlWC4_hrw/0-1-studying-at-a-uk-university\" target=\"_blank\" class=\"text-info\"><b>0.1 Studying at a UK University</b></a></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qURylJLVum",
-          "_anchor": "header9-i",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        }
-      ]
-    },
     "default.html": {
       "settings": {
         "main": true,
@@ -948,7 +460,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qUKO6bat70",
           "_anchor": "menu1-5",
           "_protectedParams": [],
@@ -1409,7 +921,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qUWQalNtLT",
           "_anchor": "menu1-q",
           "_protectedParams": [],
@@ -1936,7 +1448,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qV1UPwhjRq",
           "_anchor": "menu1-u",
           "_protectedParams": [],
@@ -2398,7 +1910,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qUWsZIbo1p",
           "_anchor": "menu1-n",
           "_protectedParams": [],
@@ -2419,17 +1931,21 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-text, .mbr-section-btn": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#080b79"
             },
             "B": {
               "color": "#232323"
             },
             ".mbr-text, .mbr-section-btn B": {
               "color": "#232323"
+            },
+            ".mbr-text, .mbr-section-btn I": {
+              "color": "#232323"
             }
           },
           "_name": "header5",
-          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/employees-2-1688x1125.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7fd9fc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>\n                    </b><br><b><br></b><br><br></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>UNIT 1- ORGANIZATIONS</b><br><b><b><b><i>To access the exercises, click on the links below.</i></b></b></b><br>&nbsp;<b><a href=\"https://learningapps.org/watch?v=pr402b0i318 \" target=\"_blank\" class=\"text-info\">1.1 Company structure - Vocabulary revision</a> \n<br><a href=\"https://learningapps.org/watch?v=pgcw8ioca18 \" target=\"_blank\" class=\"text-info\">1.2a-Who does what</a>&nbsp;<br><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\" class=\"text-info\">1.2b-Listening-Seven Job Descriptions</a><br><a href=\"https://learningapps.org/watch?v=pvjj2owon18 \" target=\"_blank\" class=\"text-info\">1.3-Synonyms </a>\n<br><a href=\"https://learningapps.org/watch?v=p3azsmzec18   \" target=\"_blank\" class=\"text-info\">1.4 -Business verbs-nouns&nbsp;</a>\n<br><a href=\"https://learningapps.org/watch?v=pcre3vpd318\" target=\"_blank\" class=\"text-info\">1.5 a AS-LIKE SUCH AS</a></b><br><b><a href=\"https://learningapps.org/watch?v=panbqo5ct18 \" target=\"_blank\" class=\"text-info\">1.5 &nbsp;b- AS-LIKE-SUCH AS -Sentence completion</a></b><br><b><a href=\"https://learningapps.org/watch?v=pqhqq8r3t18 \" target=\"_blank\" class=\"text-info\">1.6-Job_Work </a>\n<br><a href=\"https://learningapps.org/watch?v=pwnvypnsn18 \" target=\"_blank\" class=\"text-info\">1.7-Typical_errors </a>\n<br><a href=\"https://learningapps.org/watch?v=p35czpcwt18 \" target=\"_blank\" class=\"text-info\">1.8a-Describing Job Functions and Hierarchy </a>\n<br><a href=\"https://learningapps.org/watch?v=pq9egbpz218 \" target=\"_blank\" class=\"text-info\">1.8-Job_descriptions</a> \n<br><a href=\"https://learningapps.org/watch?v=p18m40zrj18 \" class=\"text-info\">1.9a-Departments</a></b><br><b><a href=\"https://learningapps.org/watch?v=pxmgzfpaa18\" target=\"_blank\" class=\"text-info\">1.9b-Formulating Questions</a><br><a href=\"https://learningapps.org/watch?v=p187j1fo318 \" target=\"_blank\" class=\"text-info\">1.10a-Linking Words of Addition </a>\n<br><a href=\"https://learningapps.org/watch?v=p0ksi0wja16\" target=\"_blank\" class=\"text-info\">1.10b-Job Responsibilities-IT Administrator/HR Manager/Company Secretary </a>\n<br><a href=\"https://learningapps.org/watch?v=p77br0hon18 \" class=\"text-info\">1.11a-Company_structure </a></b><br><a href=\"https://learningapps.org/watch?v=piaohu66t16 \" class=\"text-info\">1.11b-Board of Directors or CEO (Not in your manual)</a><b><a href=\"https://learningapps.org/watch?v=piaohu66t16 \">\n</a><br><a href=\"https://learningapps.org/watch?v=pmwtvbmfj18\" target=\"_blank\" class=\"text-info\"><b></b></a><b><a href=\"https://learningapps.org/watch?v=pmwtvbmfj18\" target=\"_blank\" class=\"text-info\">1.12-Computech - Company structures</a></b><br><a href=\"https://learningapps.org/watch?v=phnzeas2v18 \" class=\"text-info\">1.13-UK-Describing parts </a>&nbsp;<br><a href=\"https://learningapps.org/watch?v=pj001jp4518 \" target=\"_blank\" class=\"text-info\">1.14-Email- Using Gerunds </a>\n<br><a href=\"https://learningapps.org/watch?v=pafio6zfj18\" target=\"_blank\" class=\"text-info\">1.15-Typical_errors </a>\n<br><a href=\"https://learningapps.org/watch?v=phm9g0oq218\" target=\"_blank\" class=\"text-info\">1.16a/b-Frequently_confused_words </a>\n<br><a href=\"https://learningapps.org/watch?v=psf2iwf2t18 \" target=\"_blank\" class=\"text-info\">1.17a/b-Personal Pronouns-Adjectives </a>\n<br><a href=\"https://learningapps.org/watch?v=p55k9cdqc18 \" target=\"_blank\" class=\"text-info\">1.18-Linking_words</a></b><br><b><a href=\"https://learningapps.org/watch?v=pqj5egqbn16 \" target=\"_blank\" class=\"text-info\">1.19- Four Jobs-Identify the functions (Not in your manual)</a></b><br><b><a href=\"https://learningapps.org/watch?v=pn6kup9qt17 \" target=\"_blank\" class=\"text-info\">1.20- HR Verbs (Not in your manual)</a></b><br><b><a href=\"https://learningapps.org/watch?v=pme1tipuk17 \" target=\"_blank\" class=\"text-info\">1.21-Decruitment (Not in your manual)</a></b><br><b><b><i>SCROLL DOWN TO ACCESS Unit 1 AUDIOS AND VIDEOS.</i><a href=\"https://learningapps.org/watch?v=phfgz9tm218\"><br></a></b><br><br></b></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/employees-2-1688x1125.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7fd9fc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color2\" value=\"#6576aa\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>\n                    </b><br><b><br></b><br><br></h1>\n                <p class=\"mbr-text align-center display-5 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><b>UNIT 1- ORGANIZATIONS</b><br>To access the exercises, click on the links below.<br><i><b>&nbsp;</b><a href=\"https://learningapps.org/watch?v=pr402b0i318 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.1 Company structure</a>&nbsp;-<a href=\"https://learningapps.org/watch?v=pr402b0i318 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">Vocabulary revision</a> \n<br><a href=\"https://learningapps.org/watch?v=pgcw8ioca18 \" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\">1.2a-Who does what</a><b>&nbsp;</b><br><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\">1.2b-Listening-Seven Job Descriptions</a><br><a href=\"https://learningapps.org/watch?v=pvjj2owon18 \" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\">1.3-Synonyms </a>\n<br><a href=\"https://learningapps.org/watch?v=p3azsmzec18   \" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\">1.4 -Business verbs-nouns&nbsp;</a>\n<br><a href=\"https://learningapps.org/watch?v=pcre3vpd318\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.5 a AS-LIKE SUCH AS</a><br><a href=\"https://learningapps.org/watch?v=panbqo5ct18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.5 &nbsp;b- AS-LIKE-SUCH AS -Sentence completion</a><br><a href=\"https://learningapps.org/watch?v=pqhqq8r3t18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.6-Job_Work </a>\n<br><a href=\"https://learningapps.org/watch?v=pwnvypnsn18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.7-Typical_errors </a>\n<br><a href=\"https://learningapps.org/watch?v=p35czpcwt18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.8a-Describing Job Functions and Hierarchy </a>\n<br><a href=\"https://learningapps.org/watch?v=pq9egbpz218 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.8-Job_descriptions</a> \n<br><a href=\"https://learningapps.org/watch?v=p18m40zrj18 \" class=\"text-info\" style=\"font-weight: bold;\">1.9a-Departments</a><br><a href=\"https://learningapps.org/watch?v=pxmgzfpaa18\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.9b-Formulating Questions</a><br><a href=\"https://learningapps.org/watch?v=p187j1fo318 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.10a-Linking Words of Addition </a>\n<br><a href=\"https://learningapps.org/watch?v=p0ksi0wja16\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.10b-Job Responsibilities-IT Administrator/HR Manager/Company Secretary </a>\n<br><a href=\"https://learningapps.org/watch?v=p77br0hon18 \" class=\"text-info\" style=\"font-weight: bold;\">1.11a-Company_structure </a><br><a href=\"https://learningapps.org/watch?v=piaohu66t16 \" class=\"text-info\" style=\"font-weight: bold;\">1.11b-Board of Directors or CEO (Not in your manual)</a><a href=\"https://learningapps.org/watch?v=piaohu66t16 \" style=\"font-weight: bold;\">\n</a><br><b><a href=\"https://learningapps.org/watch?v=pmwtvbmfj18\" target=\"_blank\" class=\"text-info\"></a></b><a href=\"https://learningapps.org/watch?v=pmwtvbmfj18\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.12-Computech - Company structures</a><br><a href=\"https://learningapps.org/watch?v=phnzeas2v18 \" class=\"text-info\" style=\"font-weight: bold;\">1.13-UK-Describing parts </a><b>&nbsp;</b><br><a href=\"https://learningapps.org/watch?v=pj001jp4518 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.14-Email- Using Gerunds </a>\n<br><a href=\"https://learningapps.org/watch?v=pafio6zfj18\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.15-Typical_errors </a>\n<br><a href=\"https://learningapps.org/watch?v=phm9g0oq218\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.16a/b-Frequently_confused_words </a>\n<br><a href=\"https://learningapps.org/watch?v=psf2iwf2t18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.17a/b-Personal Pronouns-Adjectives </a>\n<br><a href=\"https://learningapps.org/watch?v=p55k9cdqc18 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.18-Linking_words</a><br><a href=\"https://learningapps.org/watch?v=pqj5egqbn16 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.19- Four Jobs-Identify the functions (Not in your manual)</a><br><a href=\"https://learningapps.org/watch?v=pn6kup9qt17 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.20- HR Verbs (Not in your manual)</a><br><a href=\"https://learningapps.org/watch?v=pme1tipuk17 \" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">1.21-Decruitment (Not in your manual)</a></i><br><b><i>SCROLL DOWN TO ACCESS Unit 1 AUDIOS AND VIDEOS.<a href=\"https://learningapps.org/watch?v=phfgz9tm218\"><br></a><br></i><br></b></p>\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                        <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qUWsZK9wQv",
           "_anchor": "header5-o",
           "_protectedParams": [],
@@ -2465,15 +1981,15 @@
               "color": "#080b79"
             },
             "P": {
-              "color": "#45351d",
+              "color": "#080b79",
               "text-align": "left"
             },
             "B": {
-              "color": "#635a51"
+              "color": "#232323"
             }
           },
           "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><br><br>U1-Organizations</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\"><b>LISTENINGS /VIDEOS - Click on the corresponding link below.</b></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>UNIT 1 LISTENINGS (page 20)</b><br><a href=\"http://www.mansioningles.com/business/curso/business01_02.htm\" target=\"_blank\">- Listening 1.2a Who does what - Further practice with job functions and company structure (external site; not in book) </a><br><b><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\">-  </a></b><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\" class=\"text-info\">Listening 1.2b. Seven job descriptions </a><br><br><br><b><a href=\"http://viewpure.com/oA9eZsI88FA?ref=bkmk\" target=\"_blank\" class=\"text-info\"><b>UNIT 1 POWER POINT&nbsp;</b></a>PRESENTATION&nbsp;(pages 22-23)</b><br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pptx\" target=\"_blank\" class=\"text-info\"></a><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\">-&nbsp;1.2 Ways of Organizing a Company (PPT U1.1)&nbsp;</a></p><p></p><p></p><p><span style=\"font-weight: bold;\">UNIT 1 VIDEOS</span><br><i><b>-</b><a href=\"https://learningapps.org/watch?v=pns7m79m318\" target=\"_blank\"> </a></i><a href=\"https://learningapps.org/watch?v=pns7m79m318\" target=\"_blank\" class=\"text-info\">Video 1.1 - Job responsibilities of a P.A. (Personal Assistant)</a>&nbsp;(<b>page 31</b>)<br>- <a href=\"https://www.youtube.com/watch?v=NgkQYRqxKTs\" target=\"_blank\">Video 1.2 - Mintzberg's Managerial Roles (<b>pages 35-36</b>)</a><a href=\"https://learningapps.org/watch?v=pns7m79m318\" target=\"_blank\" class=\"text-info\"><br></a><br><span style=\"font-weight: bold;\">- </span><b>CAREER VIDEO PLAYLIST - to use with WS 1.3 - (pages 191-192)</b><span style=\"font-weight: bold;\"><b><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"https://www.youtube.com/playlist?list=PL2ACA5DB1CB7ECE4B\" target=\"_blank\" class=\"text-info\">Video playlist 1: Business careers</a><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;-&nbsp;<a href=\"https://www.tes.com/lessons/JKPYaNe9PXnyRg/u1-job-descriptions-career-videos\" target=\"_blank\" class=\"text-info\">Video playlist 2: Technical careers (sts majoring in engineering)</a></b></span><br><b style=\"font-weight: bold;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><a href=\"https://www.youtube.com/user/CareerTrekBC\" target=\"_blank\">- Video playlist 3: Career Treck / (YouTube playlist)</a><br></p><p></p><p><a href=\"assets/files/Video 1.3-Awesome Corp-What is organizational structure.pdf\" target=\"_blank\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;- Video 1.3 - Awesome&nbsp;</a><span style=\"font-size: 1rem;\"><a href=\"assets/files/Video 1.3-Awesome Corp-What is organizational structure.pdf\" target=\"_blank\">Corp.- What is organizational structure? (<b>page 187 worksheet incl</b>)&nbsp;</a></span></p><p></p><p></p><p><span style=\"font-weight: bold;\">Extra videos (not in book)</span><br><i style=\"font-weight: bold;\"><a href=\"assets/files/Video%201.4-CEO.pdf\">- How to become a CEO (worksheet incl)</a><br></i><br><span style=\"font-weight: bold;\">Extra videos about corporate organizations\n</span><br><i style=\"font-weight: bold;\">- </i><a href=\"http://viewpure.com/3AIZglt38NA\" target=\"_blank\" class=\"text-info\">Understanding corporate structure (Investopedia) </a><br><i style=\"font-weight: bold;\"><a href=\"https://www.youtube.com/watch?v=Chb3Mk7wVVQ\" target=\"_blank\">-</a></i><a href=\"https://www.youtube.com/watch?v=Chb3Mk7wVVQ\" target=\"_blank\" class=\"text-info\"> Basic introduction to organizational structures</a><a href=\"http://viewpure.com/R-m8grawp1k?lng=en\" target=\"_blank\" class=\"text-info\">&nbsp;</a><br><br><b>ORGANIZATIONS - Additional readings and information</b><br>- <a href=\"http://panmore.com/tag/organizational-structure\" target=\"_blank\" class=\"text-info\">PANMORE INSTITUTE- Readings about the organizational structures used by different companies</a><br>- <a href=\"https://www.mindtools.com/pages/article/management-roles.htm\" target=\"_blank\" class=\"text-info\">MINTZBERG'S MANAGMENT ROLES - Video and follow-up reading</a>&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp;(goes well with Video 1.2 - pp 35-36)<a href=\"https://www.mindtools.com/pages/article/management-roles.htm\" target=\"_blank\" class=\"text-info\"><br></a><a href=\"http://panmore.com/tag/organizational-structure\" target=\"_blank\" class=\"text-info\"><br></a><a href=\"http://viewpure.com/R-m8grawp1k?lng=en\" target=\"_blank\" class=\"text-info\"><br></a><br></p><p></p><p></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#f9f9f9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><br><br>U1-Organizations</h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubTitle\"><b style=\"font-style: normal;\">LISTENINGS /VIDEOS - Click on the corresponding link below.</b></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>UNIT 1 LISTENINGS (p 20)</b><br><b><a href=\"http://www.mansioningles.com/business/curso/business01_02.htm\" target=\"_blank\" class=\"text-success\"></a><a href=\"http://www.mansioningles.com/business/curso/business01_02.htm\" target=\"_blank\" class=\"text-info\">- Listening 1.2a Who does what?</a><br></b><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\">-  </a><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\" class=\"text-info\">Listening 1.2b. Seven job descriptions</a><br><a href=\"https://learningapps.org/watch?v=p99tu90yn18\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\"><br></a><br><b><a href=\"http://viewpure.com/oA9eZsI88FA?ref=bkmk\" target=\"_blank\" class=\"text-black\"><b>UNIT 1 POWER POINT&nbsp;</b></a>PRESENTATION&nbsp;(pp 22-23)<br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pptx\" target=\"_blank\" class=\"text-info\"></a></b><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\">-&nbsp;1.2 Ways of Organizing a Company (PPT U1.1)</a><br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\"><br></a><br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-primary\" style=\"font-weight: bold;\">UNIT 1 VIDEOS</a><br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\">- Video 1.1 - Awesome Corp.- What is organizational structure? (p 187, WS 1.1) \n<br>- Video 1.1 - Job responsibilities of a P.A. (Personal Assistant) (p 31)</a><br><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\"><br></a><br><b>CAREER VIDEO PLAYLIST - to use with WS 1.2 - (pp 190-191)</b><br>- Video playlist 1.2a: Business careers \n<br>- Video playlist 1.2b: Technical careers (sts majoring in engineering) \n<br>- Video playlist 1.2b: Career Treck / (YouTube playlist)<br><br><b>Extra videos (not in book)\n<br></b>- How to become a CEO (worksheet incl)\n<br>\n<br><b>Extra videos about corporate organizations \n<br></b>- Understanding corporate structure (Investopedia) \n<br>- Basic introduction to organizational structures \n<br>\n<br>ORGANIZATIONS - Additional readings and information\n<br>-PANMORE INSTITUTE- Readings about the organizational structures used by different companies\n<br>\n<br>\n<br>\n<br><br><br><br><b><br></b><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\"><br></a><a href=\"assets/files/U1.1-Organization-Intro%20and%20structures%20019.pdf\" target=\"_blank\" class=\"text-success\" style=\"font-weight: bold;\"><br></a></p><p></p><p></p><p><br><b><br></b><br><b><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><br></p><p></p><p><a href=\"https://www.youtube.com/watch?v=wO_-MtWejRM\" target=\"_blank\" class=\"text-success\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></p><p></p><p></p><p><br></p><p></p><p></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qUWsZMGzFq",
           "_anchor": "header9-p",
           "_protectedParams": [],
@@ -2887,7 +2403,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qV1UPwhjRq",
           "_anchor": "menu1-1f",
           "_protectedParams": [],
@@ -3334,7 +2850,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U0.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Unit 0</a>  <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#c1c1c1\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    \n                         <img src=\"@PROJECT_PATH@/assets/images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    \n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-info\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">&nbsp;</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">\n                        </a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-secondary\" href=\"default.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>EBS1</a>   <a class=\"btn btn-sm btn-secondary\" href=\"index.U1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 1</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U2.html\" data-app-placeholder=\"Type Text\">Unit 2</a> <a class=\"btn btn-sm btn-secondary\" href=\"index.U3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Unit 3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Rev.U1-3.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    Rev.U1-3</a> <a class=\"btn btn-sm btn-secondary\" href=\"Appendix_1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">\n                    \n                    App. 1</a></div>\n        </div>\n    </nav>\n</section>",
           "_cid": "qUKO6bat70",
           "_anchor": "menu1-1c",
           "_protectedParams": [],

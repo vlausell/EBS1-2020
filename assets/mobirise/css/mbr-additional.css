@@ -2088,6 +2088,8 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-qUWQaoShbA {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/business.companies-900x510.jpg");
 }
 .cid-qUWQaoShbA .mbr-text,
@@ -2101,6 +2103,9 @@ body {
 .cid-qUWQaoShbA .mbr-text,
 .cid-qUWQaoShbA .mbr-section-btn B {
   color: #d12112;
+}
+.cid-qUWQaoShbA H1 {
+  color: #232323;
 }
 .cid-qUWQarnrto {
   background-image: url("../../../assets/images/mbr-1797x1080.jpg");
@@ -2143,6 +2148,9 @@ body {
 .cid-qVlakLr2mv .mbr-text,
 .cid-qVlakLr2mv .mbr-section-btn B {
   color: #073b4c;
+}
+.cid-qVlakLr2mv H1 {
+  color: #232323;
 }
 .cid-qV1UPwhjRq .navbar {
   padding: .5rem 0;
@@ -2949,6 +2957,9 @@ body {
 }
 .cid-qUWsZK9wQv .mbr-text,
 .cid-qUWsZK9wQv .mbr-section-btn I {
+  color: #232323;
+}
+.cid-qUWsZK9wQv H1 {
   color: #232323;
 }
 .cid-qUWsZMGzFq {
